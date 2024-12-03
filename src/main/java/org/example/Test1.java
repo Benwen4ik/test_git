@@ -8,4 +8,9 @@ public class Test1 {
     public void test1(){
         System.out.println("Hello test1!");
     }
+
+    @Override
+    public String toString() {
+        return "Test1{}";
+    }
 }
